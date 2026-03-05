@@ -1,0 +1,11 @@
+# Binaries
+microservice-app
+*.exe
+*.out
+
+# Environment
+.env
+.env.*
+
+# Go
+vendor/
