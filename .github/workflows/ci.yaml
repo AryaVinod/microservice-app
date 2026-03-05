@@ -24,4 +24,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: aryaarmada/microservice-app:${{ github.sha }}
+          tags: |
+            aryaarmada/microservice-app:latest
+            aryaarmada/microservice-app:${{ github.sha }}
